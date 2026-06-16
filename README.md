@@ -36,8 +36,8 @@ O fluxo de dados foi desenhado seguindo as melhores práticas de Engenharia de D
 
 Como o projeto foi integrado nativamente ao GitHub utilizando o **Databricks Repos**, a estrutura de arquivos gerada segue o padrão de notebooks exportados:
 
-* `01_ingestion_and_transformation.py`: Código em Python (Spark/Pandas) que realiza os requests nas APIs, executa o cálculo de conversão cambial e persiste a informação na tabela Delta.
-* `02_databricks_sql_queries.sql`: Consultas estruturadas utilizadas para modelar e extrair os dados que alimentam os componentes visuais do dashboard.
+* `0get_api.py`: Código em Python (Spark/Pandas) que realiza os requests nas APIs, executa o cálculo de conversão cambial e persiste a informação na tabela Delta.
+* `aquecimento.sql`: Consultas estruturadas utilizadas para modelar e extrair os dados que alimentam os componentes visuais do dashboard.
 * `README.md`: Documentação oficial do projeto.
 
 ---
